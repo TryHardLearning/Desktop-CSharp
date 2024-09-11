@@ -188,7 +188,7 @@ namespace SistemaConsole
                 if (centralizado)
                 {
                     x = (Console.WindowWidth - m.Rotulo.Length) / 2;
-                    y++; //espaco vertical entre itens
+                    y++; //espaco vertical
                 }
                 else if (submenu)
                 { 
@@ -197,7 +197,7 @@ namespace SistemaConsole
                         x = Console.WindowLeft;
                         y++;
                     }
-                    x++; //espaco horizontal
+                    x++; //spaco horizontal
                 }
 
                 m.Lin = y;
