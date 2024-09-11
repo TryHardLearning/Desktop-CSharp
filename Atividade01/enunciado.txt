@@ -1,0 +1,32 @@
+Atividade 1
+
+Considerando o projeto de estudo de caso disponível como
+ProjetoMenu, modificá-lo para permitir:
+
+    Menu em barra horizontal superior;
+    - Subitems para o menu superior que seja mostrado
+      na forma de um submenu centralizado na tela, mantendo
+      a opção do menu horizontal selecionado em destaque;
+    - Habilitação de atalhos de teclas para cada item/subitem
+    Adicionar um propriedade "Hint" que permita ao programador
+	adicionar uma ajuda sobre o item/subitem selecionado.
+    Adicionar duas proprieades com a coordenada (linha e coluna)
+	onde o hint do item/subitem selecionado deve ser mostrado.
+
+  na forma de ALT+Letra ou CTRL+Letra;
+- Criar um evento que é acionado sempre que o seletor trocar de posição no menu.
+
+Atividade 2
+
+1) Criar uma classe de objeto na forma de um componente para entrada de dados em modo console que atenda os seguintes requisitos:
+
+    Permita definir a largura em caracteres do campo a ser digitado;
+    Permita especificar o tipo de dados de entrada do componente usando o conceito de classes genéricas(Numérico, Decimais, String, Data) --> dica: class InputField<T>
+    Permita definir o local da tela (x,y) onde o campo deve ser colocado
+    Permita definir qual a cor da frente e a cor do fundo do componente
+    Permita definir se o campo será de avanço (enter) automático quando todo preenchido ou não
+    Se o campo for tipo Data, apresentar uma máscara de digitação "dd/mm/yyyy"
+    Se o campo for numérico aceitar apenas os dígitos de 0 a 9, "-" na primeira posição e "," decimal
+    Defina um evento que é disparado sempre que o conteúdo for modificado.
+
+2) Criar um projeto console para implementar o componente e testar sua funcionalidade na classe Program.cs
